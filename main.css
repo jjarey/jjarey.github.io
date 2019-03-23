@@ -73,8 +73,10 @@ header h1 {
   color: white;
   font-size: 1.1rem;
   font-weight: bold;
-  left: -10px;
-  padding: 10px;
+  height: 40px;
+  left: -20px;
+  margin: 20px 10px;
+  padding: 20px;
   position: relative;
   text-transform: uppercase;
 }
@@ -152,4 +154,9 @@ footer {
   color: white;
   margin: 20px 0;
   padding: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
 }
