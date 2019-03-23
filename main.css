@@ -129,6 +129,7 @@ header h1 {
 .contact {
   position: relative;
   top: 100px;
+  z-index: -1;
 }
 
 .logos {
