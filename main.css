@@ -105,6 +105,10 @@ header h1 {
   padding: 10px;
 }
 
+.certifications div:last-child {
+  border-bottom: none;
+}
+
 .certifications h4, p, a {
   margin: 10px;
 }
