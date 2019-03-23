@@ -160,3 +160,64 @@ footer a {
   color: white;
   text-decoration: none;
 }
+
+
+@media screen and (max-width: 600px) {
+
+  body {
+    width: 100%;
+    }
+
+  header h1 {
+      margin: 20px 30px;
+  }
+
+  .nav li {
+    display: none;
+  }
+
+  .summary {
+    display: block;
+  }
+
+  .photo img {
+    border-radius: 0%;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .position, .schooling  {
+    margin: 20px 30px;
+    width: 100%;
+  }
+
+  #job, #school {
+    height: auto;
+  }
+
+  .skills img {
+    margin: 0px 0px 5px 0px;
+    width: 100%;
+  }
+
+  .certifications {
+    display: block;
+    float: none;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .certifications div {
+    margin: 0 10px;
+  }
+
+  .contact {
+    position: relative;
+    top: 20px;
+  }
+
+}
