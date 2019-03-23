@@ -29,6 +29,7 @@ header h1 {
 
 .nav a {
   color: limegreen;
+  font-weight: bold;
   text-decoration: none;
 }
 
