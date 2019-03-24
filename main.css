@@ -33,6 +33,39 @@ header h1 {
   text-decoration: none;
 }
 
+/* Mobile navigation menu icon */
+
+.mobile-nav-icon {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  right: 35px;
+  top: 20px;
+}
+
+.bar1, .bar2, .bar3 {
+  background-color: #333;
+  height: 5px;
+  margin: 6px 0;
+  transition: 0.1s;
+  width: 35px;
+}
+
+/* Rotate the first bar */
+.change1 {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change2 {
+  opacity: 0;
+}
+
+/* Rotate the last bar */
+.change3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
 .summary {
   display: flex;
 }
@@ -166,14 +199,28 @@ footer a {
 
   body {
     width: 100%;
-    }
+  }
+
+  header {
+    flex-direction: column;
+  }
 
   header h1 {
-      margin: 20px 30px;
+    margin: 20px 30px;
+  }
+
+  .mobile-nav-icon {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    margin: 0 auto;
+    padding: 0;
   }
 
   .nav li {
-    display: none;
+    display: block;
   }
 
   .summary {
