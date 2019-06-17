@@ -112,6 +112,7 @@ header h1 {
   padding: 20px;
   position: relative;
   text-transform: uppercase;
+  width: 140px;
 }
 
 #workplace, #degree {
