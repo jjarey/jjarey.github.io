@@ -133,6 +133,7 @@ header h1 {
   flex-direction: column;
   float: right;
   margin: 20px 50px;
+  z-index: auto;
   width: 500px;
 }
 
@@ -170,7 +171,6 @@ header h1 {
 .contact {
   position: relative;
   top: 100px;
-  z-index: -1;
 }
 
 .logos {
