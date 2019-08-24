@@ -133,7 +133,6 @@ header h1 {
   flex-direction: column;
   float: right;
   margin: 20px 50px;
-  z-index: auto;
   width: 500px;
 }
 
@@ -144,6 +143,7 @@ header h1 {
 
 .certifications div:last-child {
   border-bottom: none;
+  z-index: 1;
 }
 
 .certifications h4, p, a {
@@ -170,7 +170,8 @@ header h1 {
 
 .contact {
   position: relative;
-  top: 100px;
+  top: 60px;
+  width: 600px;
 }
 
 .logos {
@@ -188,6 +189,8 @@ footer {
   color: white;
   margin: 20px 0;
   padding: 10px;
+  position: relative;
+  top: 50px;
 }
 
 footer a {
@@ -195,6 +198,7 @@ footer a {
   text-decoration: none;
 }
 
+/* Smart phone styles */
 
 @media screen and (max-width: 600px) {
 
@@ -261,11 +265,6 @@ footer a {
 
   .certifications div {
     margin: 0 10px;
-  }
-
-  .contact {
-    position: relative;
-    top: 20px;
   }
 
 }
