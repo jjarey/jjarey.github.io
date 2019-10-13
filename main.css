@@ -283,5 +283,9 @@ footer a {
   .certifications div {
     margin: 0 10px;
   }
+  
+  .contact {
+    width: 100%;
+  }
 
 }
