@@ -33,6 +33,10 @@ header h1 {
   text-decoration: none;
 }
 
+.nav a:hover {
+  text-decoration: underline;
+}
+
 /* Mobile navigation menu icon */
 
 .mobile-nav-icon {
@@ -283,7 +287,7 @@ footer a {
   .certifications div {
     margin: 0 10px;
   }
-  
+
   .contact {
     width: 100%;
   }
