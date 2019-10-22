@@ -128,11 +128,13 @@ header h1 {
   font-size: 1.05rem;
 }
 
-/* Show and hide details start */
+/* Show and hide details */
 
 .details {
   display: none;
 }
+
+/* Button styles */
 
 .details-button {
   background-color: white;
@@ -143,6 +145,16 @@ header h1 {
   margin: 10px;
   padding: 5px 10px;
 }
+
+.details-button:hover {
+  border-color: black;
+}
+
+button:focus {
+  outline: 0;
+}
+
+/* Word cloud */
 
 .skills img {
   margin: 20px 50px;
@@ -270,6 +282,14 @@ footer a {
 
   #job, #school {
     height: auto;
+  }
+
+  .details-button:hover {
+    border-color: limegreen;
+  }
+
+  .details-button:active {
+    border-color: black;
   }
 
   .skills img {
